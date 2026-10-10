@@ -1,0 +1,319 @@
+/* =================================
+   GLOBAL
+================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* =================================
+   HERO INDEX
+================================= */
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+/* =================================
+   HERO ANIMATION
+================================= */
+
+#heroText {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+#heroText.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* =================================
+   HERO IMAGE
+================================= */
+
+.hero-image {
+    opacity: 0;
+    transform: translateX(40px);
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s ease;
+}
+
+.hero-image.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* =================================
+   FEATURE CARD
+================================= */
+
+.feature-card {
+    opacity: 0;
+    transform: translateY(35px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.feature-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =================================
+   HERO MENU
+================================= */
+
+.menu-hero-content {
+    opacity: 0;
+    transform: translateY(45px);
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s ease;
+}
+
+.menu-hero-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu-hero-content h1 {
+    opacity: 0;
+    transform: translateY(25px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    transition-delay: 0.15s;
+}
+
+.menu-hero-content h2 {
+    opacity: 0;
+    transform: translateY(25px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    transition-delay: 0.3s;
+}
+
+.menu-hero-content a {
+    opacity: 0;
+    transform: translateY(25px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    transition-delay: 0.45s;
+}
+
+.menu-hero-content p {
+    opacity: 0;
+    transform: translateY(25px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    transition-delay: 0.6s;
+}
+
+.menu-hero-content.show h1,
+.menu-hero-content.show h2,
+.menu-hero-content.show a,
+.menu-hero-content.show p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =================================
+   SEMUA CARD MENU
+================================= */
+
+.menu-card,
+.extra-card,
+.drink-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu-animation .menu-card,
+.menu-animation .extra-card,
+.menu-animation .drink-card {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.menu-animation .menu-card.reveal,
+.menu-animation .extra-card.reveal,
+.menu-animation .drink-card.reveal {
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+
+/* =================================
+   JUDUL BAGIAN MENU
+================================= */
+
+.menu-title-animation {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.menu-title-animation.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =================================
+   GAMBAR MENU
+================================= */
+
+.menu-card img {
+    transition: transform 0.5s ease;
+}
+
+.menu-card:hover img {
+    transform: scale(1.05);
+}
+
+
+/* =================================
+   DOKUMENTASI & KONTAK
+================================= */
+
+.page-hero-content {
+    opacity: 0;
+    transform: translateY(45px);
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s ease;
+}
+
+.page-hero-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page-hero-content p,
+.page-hero-content h1 {
+    opacity: 0;
+    transform: translateY(25px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.page-hero-content.show p,
+.page-hero-content.show h1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page-hero-content.show p:first-child {
+    transition-delay: 0.1s;
+}
+
+.page-hero-content.show h1 {
+    transition-delay: 0.25s;
+}
+
+.page-hero-content.show p:last-child {
+    transition-delay: 0.4s;
+}
+
+
+/* =================================
+   DOKUMENTASI CARD
+================================= */
+
+.documentation-card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.documentation-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.documentation-card img {
+    transition: transform 0.5s ease;
+}
+
+.documentation-card:hover img {
+    transform: scale(1.04);
+}
+
+
+/* =================================
+   KONTAK
+================================= */
+
+.contact-card,
+.contact-form {
+    opacity: 0;
+    transform: translateY(50px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.contact-card.show,
+.contact-form.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 768px) {
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #heroText {
+        transform: translateY(20px);
+    }
+
+    #heroText.show {
+        transform: translateY(0);
+    }
+
+    .hero-image {
+        transform: translateY(20px);
+    }
+
+    .hero-image.show {
+        transform: translateY(0);
+    }
+
+}

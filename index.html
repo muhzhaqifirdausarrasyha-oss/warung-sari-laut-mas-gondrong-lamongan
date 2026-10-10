@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Warung Sari Laut Mas Gondrong</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CSS tambahan -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-black text-white overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-black/95 border-b border-orange-500">
+
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- LOGO -->
+            <a href="index.html"
+               class="flex items-center gap-3 text-2xl font-black text-orange-500 hover:text-orange-400 transition">
+
+                <img src="images/Logo-Warung-Atas.png"
+                     alt="Logo Warung Sari Laut Mas Gondrong"
+                     class="w-12 h-12 object-contain">
+
+                <span>Mas Gondrong</span>
+            </a>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden md:flex items-center gap-7 font-bold">
+
+                <a href="index.html" class="text-orange-500">
+                    Beranda
+                </a>
+
+                <a href="menu.html" class="text-zinc-300 hover:text-orange-500 transition">
+                    Menu
+                </a>
+
+                <a href="informasi.html" class="text-zinc-300 hover:text-orange-500 transition">
+                    Informasi
+                </a>
+
+                <a href="kontak.html" class="text-zinc-300 hover:text-orange-500 transition">
+                    Kontak
+                </a>
+
+                <!-- ADMIN -->
+                <a href="admin.php" class="text-orange-500 hover:text-orange-400 transition">
+                    Admin
+                </a>
+
+            </div>
+
+            <!-- TOMBOL MENU HP -->
+            <button id="menuButton" class="md:hidden text-orange-500 text-2xl">
+                ☰
+            </button>
+
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="mobileMenu" class="hidden md:hidden max-w-6xl mx-auto px-6 pb-5">
+
+            <a href="index.html" class="block py-3 text-orange-500 border-b border-zinc-800">
+                Beranda
+            </a>
+
+            <a href="menu.html" class="block py-3 text-zinc-300 hover:text-orange-500 border-b border-zinc-800">
+                Menu
+            </a>
+
+            <a href="informasi.html" class="block py-3 text-zinc-300 hover:text-orange-500 border-b border-zinc-800">
+                Informasi
+            </a>
+
+            <a href="kontak.html" class="block py-3 text-zinc-300 hover:text-orange-500 border-b border-zinc-800">
+                Kontak
+            </a>
+
+            <!-- ADMIN MOBILE -->
+            <a href="admin.php" class="block py-3 text-orange-500 hover:text-orange-400">
+                Admin
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO -->
+    <section class="bg-gradient-to-br from-orange-600 via-orange-500 to-black">
+
+        <div class="max-w-6xl mx-auto min-h-[600px] px-6 py-20 hero-grid">
+
+            <!-- HERO TEXT -->
+            <div id="heroText">
+
+                <p class="text-orange-100 font-bold uppercase tracking-[4px] mb-4">
+                    Kuliner Lamongan
+                </p>
+
+                <h1 class="text-4xl md:text-6xl font-black leading-tight">
+                    Selamat Datang di
+
+                    <span class="block text-orange-100">
+                        Warung Sari Laut Mas Gondrong
+                    </span>
+                </h1>
+
+                <p class="mt-6 max-w-2xl text-lg leading-7 text-orange-100">
+                    Nikmati berbagai pilihan makanan dan minuman
+                    dengan cita rasa khas Warung Sari Laut Mas Gondrong.
+                </p>
+
+                <!-- BUTTON -->
+                <div class="mt-8 flex flex-col sm:flex-row gap-4">
+
+                    <a href="menu.html"
+                       class="px-7 py-3 rounded-full bg-black text-orange-500 border-2 border-black font-black text-center hover:bg-zinc-900 hover:-translate-y-1 transition">
+                        🍽️ Lihat Menu
+                    </a>
+
+                    <a href="informasi.html"
+                       class="px-7 py-3 rounded-full border-2 border-orange-200 text-white font-black text-center hover:bg-white hover:text-orange-600 hover:-translate-y-1 transition">
+                        📍 Informasi Warung
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- GAMBAR WARUNG -->
+            <div class="hero-image p-4 bg-black/50 border border-orange-500 rounded-3xl shadow-2xl">
+
+                <img src="images/Warung-Logo.png"
+                     alt="Warung Sari Laut Mas Gondrong"
+                     class="w-full h-80 object-cover rounded-2xl hover:scale-[1.02] transition duration-500">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- INTRO -->
+    <section class="bg-black py-20 px-6">
+
+        <div class="max-w-6xl mx-auto">
+
+            <div class="max-w-3xl mx-auto text-center">
+
+                <p class="text-orange-500 font-bold uppercase tracking-[4px]">
+                    Tentang Warung
+                </p>
+
+                <h2 class="mt-3 text-3xl md:text-4xl font-black">
+                    Sederhana, Lezat, dan Bersahabat
+                </h2>
+
+                <p class="mt-5 text-zinc-400 leading-7">
+                    Warung Sari Laut Mas Gondrong Lamongan merupakan tempat
+                    kuliner yang menyajikan berbagai pilihan makanan dan
+                    minuman untuk dinikmati bersama keluarga maupun teman.
+                </p>
+
+            </div>
+
+            <!-- FITUR -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <!-- MENU BERAGAM -->
+                <div class="feature-card p-8 text-center bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl hover:border-orange-500 hover:-translate-y-2 transition duration-300">
+
+                    <div class="w-20 h-20 mx-auto flex items-center justify-center rounded-full bg-orange-500/10 text-4xl hover:bg-orange-500/20 transition">
+                        🍤
+                    </div>
+
+                    <h3 class="mt-5 text-xl font-black">
+                        Menu Beragam
+                    </h3>
+
+                    <p class="mt-2 text-zinc-500 leading-7">
+                        Berbagai pilihan makanan dan minuman tersedia.
+                    </p>
+
+                </div>
+
+                <!-- CITA RASA -->
+                <div class="feature-card p-8 text-center bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl hover:border-orange-500 hover:-translate-y-2 transition duration-300">
+
+                    <div class="w-20 h-20 mx-auto flex items-center justify-center rounded-full bg-orange-500/10 text-4xl hover:bg-orange-500/20 transition">
+                        😋
+                    </div>
+
+                    <h3 class="mt-5 text-xl font-black">
+                        Cita Rasa
+                    </h3>
+
+                    <p class="mt-2 text-zinc-500 leading-7">
+                        Sajian yang cocok dinikmati kapan saja.
+                    </p>
+
+                </div>
+
+                <!-- RAMAH -->
+                <div class="feature-card p-8 text-center bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl hover:border-orange-500 hover:-translate-y-2 transition duration-300">
+
+                    <div class="w-20 h-20 mx-auto flex items-center justify-center rounded-full bg-orange-500/10 text-4xl hover:bg-orange-500/20 transition">
+                        🤝
+                    </div>
+
+                    <h3 class="mt-5 text-xl font-black">
+                        Ramah
+                    </h3>
+
+                    <p class="mt-2 text-zinc-500 leading-7">
+                        Suasana warung yang sederhana dan bersahabat.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-6 text-center bg-gradient-to-r from-orange-600 to-orange-500 text-black">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-3xl md:text-4xl font-black">
+                Mau Melihat Menu?
+            </h2>
+
+            <p class="mt-3 text-orange-950">
+                Lihat berbagai makanan dan minuman yang tersedia.
+            </p>
+
+            <a href="menu.html"
+               class="inline-block mt-7 px-8 py-3 bg-black text-orange-500 rounded-full font-black hover:bg-zinc-900 hover:-translate-y-1 transition">
+                Lihat Menu 🍽️
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-6 text-center bg-black border-t border-orange-900 text-zinc-500">
+
+        <p class="text-zinc-400 font-semibold">
+            © 2026 Warung Sari Laut Mas Gondrong Lamongan
+        </p>
+
+        <p class="mt-2 text-sm">
+            Website Dokumentasi Warung
+        </p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+```

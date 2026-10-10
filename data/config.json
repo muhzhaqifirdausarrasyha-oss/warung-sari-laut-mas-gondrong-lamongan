@@ -1,0 +1,17 @@
+{
+    "warung": {
+        "nama": "Warung Sari Laut Mas Gondrong",
+        "pemilik": "Mas Gondrong",
+        "jenis": "Sari Laut",
+        "alamat": "Jl. Ahmad Yani, Caile, Ujung Bulu, Bulukumba"
+    },
+
+    "kontak": {
+        "whatsapp": "6281217267385"
+    },
+
+    "website": {
+        "nama": "Warung Sari Laut Mas Gondrong",
+        "tahun": 2026
+    }
+}

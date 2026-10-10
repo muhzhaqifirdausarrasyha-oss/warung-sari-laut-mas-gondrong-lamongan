@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak - Mas Gondrong</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Arial', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-black text-white">
+
+    <!-- NAVBAR -->
+    <nav class="bg-black/95 border-b border-orange-500 sticky top-0 z-50">
+
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <a href="index.html"
+               class="flex items-center gap-3
+                      text-xl md:text-2xl font-black text-orange-500
+                      hover:text-orange-400 transition">
+
+                <img src="images/Logo-Warung-Atas.png"
+                     alt="Logo Warung Sari Laut Mas Gondrong"
+                     class="w-12 h-12 object-contain">
+
+                <span>
+                    Mas Gondrong
+                </span>
+
+            </a>
+
+            <div class="hidden md:flex gap-7 font-semibold">
+
+                <a href="index.html"
+                   class="text-gray-300 hover:text-orange-500 transition">
+                    Beranda
+                </a>
+
+                <a href="menu.html"
+                   class="text-gray-300 hover:text-orange-500 transition">
+                    Menu
+                </a>
+
+                <a href="informasi.html"
+                   class="text-gray-300 hover:text-orange-500 transition">
+                    Informasi
+                </a>
+
+                <a href="kontak.html"
+                   class="text-orange-500">
+                    Kontak
+                </a>
+
+                
+                <a href="admin.php"
+                   class="text-orange-500 hover:text-orange-400 transition">
+                    Admin
+                </a>
+
+
+            </div>
+
+            <button id="menuButton"
+                    class="md:hidden text-orange-500 text-2xl">
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE MENU -->
+        <div id="mobileMenu"
+             class="hidden md:hidden px-6 pb-5">
+
+            <a href="index.html"
+               class="block py-2 text-gray-300 hover:text-orange-500">
+                Beranda
+            </a>
+
+            <a href="menu.html"
+               class="block py-2 text-gray-300 hover:text-orange-500">
+                Menu
+            </a>
+
+            <a href="informasi.html"
+               class="block py-2 text-gray-300 hover:text-orange-500">
+                Informasi
+            </a>
+
+            <a href="kontak.html"
+               class="block py-2 text-orange-500">
+                Kontak
+            </a>
+
+            
+            <a href="admin.php"
+               class="block py-3 text-orange-500 hover:text-orange-400">
+                Admin
+            </a>
+
+
+        </div>
+
+    </nav>
+
+
+    <!-- HEADER -->
+    <section class="bg-gradient-to-b from-orange-600 via-orange-500 to-black text-white">
+
+        <div class="max-w-6xl mx-auto px-6 py-20 text-center page-hero-content">
+
+            <p class="text-orange-200 font-bold uppercase tracking-widest">
+                Hubungi Kami
+            </p>
+
+            <h1 class="text-4xl md:text-5xl font-black mt-2">
+                Kontak Warung
+            </h1>
+
+            <p class="mt-4 text-orange-100">
+                Informasi untuk menghubungi pemilik Warung Mas Gondrong.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <main class="max-w-5xl mx-auto px-6 py-16">
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+
+            <!-- INFO -->
+            <div class="contact-card bg-zinc-950 border border-zinc-800
+                        p-8 rounded-2xl
+                        hover:border-orange-500 transition">
+
+                <h2 class="text-2xl font-black text-orange-500">
+                    📞 Informasi Kontak
+                </h2>
+
+                <div class="mt-8 space-y-6">
+
+                    <div>
+
+                        <p class="text-sm text-gray-500">
+                            Pemilik
+                        </p>
+
+                        <p class="font-bold text-lg">
+                            Mas Gondrong
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-sm text-gray-500">
+                            WhatsApp
+                        </p>
+
+                        <a href="https://wa.me/6282158971706"
+                           target="_blank"
+                           class="font-bold text-orange-500
+                                  hover:text-orange-400">
+
+                            0821-5897-1706
+
+                        </a>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-sm text-gray-500">
+                            Email
+                        </p>
+
+                        <a href="mailto:raifirdaus34@gmail.com"
+                           class="font-bold text-orange-500
+                                  hover:text-orange-400">
+
+                            raifirdaus34@gmail.com
+
+                        </a>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-sm text-gray-500">
+                            Lokasi
+                        </p>
+
+                        <p class="font-bold">
+                            Lamongan, Jawa Timur
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-sm text-gray-500">
+                            Jam Buka
+                        </p>
+
+                        <p class="font-bold">
+                            Silakan cek langsung ke warung
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PESAN -->
+            <div class="contact-form bg-zinc-950 border border-zinc-800
+                        p-8 rounded-2xl
+                        hover:border-orange-500 transition">
+
+                <h2 class="text-2xl font-black text-orange-500">
+                    💬 Kirim Pesan
+                </h2>
+
+
+                <form id="contactForm"
+                      class="mt-6 space-y-5">
+
+
+                    <div>
+
+                        <label class="font-semibold">
+                            Nama
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nama"
+                            class="w-full mt-2 px-4 py-3
+                                   bg-black border border-zinc-700
+                                   text-white rounded-xl
+                                   focus:outline-none
+                                   focus:border-orange-500
+                                   focus:ring-1
+                                   focus:ring-orange-500"
+                            placeholder="Masukkan nama"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label class="font-semibold">
+                            Pesan
+                        </label>
+
+                        <textarea
+                            id="pesan"
+                            rows="5"
+                            class="w-full mt-2 px-4 py-3
+                                   bg-black border border-zinc-700
+                                   text-white rounded-xl
+                                   focus:outline-none
+                                   focus:border-orange-500
+                                   focus:ring-1
+                                   focus:ring-orange-500"
+                            placeholder="Tulis pesan..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="w-full bg-orange-500 text-black
+                               py-3 rounded-xl font-black
+                               hover:bg-orange-400 transition">
+
+                        Kirim Pesan
+
+                    </button>
+
+                </form>
+
+
+                <p id="formMessage"
+                   class="hidden mt-4 font-semibold">
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-black border-t border-orange-900
+                   text-gray-500 text-center py-8">
+
+        <p>
+            © 2026 Warung Sari Laut Mas Gondrong Lamongan
+        </p>
+
+        <p class="text-sm mt-2">
+            Website Dokumentasi Warung
+        </p>
+
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <script src="js/script.js"></script>
+
+    <script>
+        $("#contactForm").submit(function(e) {
+
+            e.preventDefault();
+
+            const nama = $("#nama").val();
+            const pesan = $("#pesan").val();
+
+            const email = "raifirdaus34@gmail.com";
+
+            const subject = encodeURIComponent(
+                "Pesan dari Website Warung Mas Gondrong"
+            );
+
+            const body = encodeURIComponent(
+                "Nama: " + nama + "\n\n" +
+                "Pesan:\n" + pesan
+            );
+
+            window.location.href =
+                `mailto:${email}?subject=${subject}&body=${body}`;
+
+        });
+    </script>
+
+</body>
+</html>

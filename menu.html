@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Menu - Warung Sari Laut Mas Gondrong</title>
+
+    <!-- Tailwind CSS -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- jQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CSS tambahan -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body class="bg-black text-white overflow-x-hidden">
+
+
+    <!-- NAVBAR -->
+
+    <nav class="sticky top-0 z-50 bg-black/95 border-b border-orange-500">
+
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html"
+               class="flex items-center gap-3 text-2xl font-black text-orange-500 hover:text-orange-400 transition">
+
+                <img src="images/Logo-Warung-Atas.png"
+                     alt="Logo Warung Sari Laut Mas Gondrong"
+                     class="w-12 h-12 object-contain">
+
+                <span>Mas Gondrong</span>
+
+            </a>
+
+
+            <!-- DESKTOP MENU -->
+
+            <div class="hidden md:flex items-center gap-7 font-bold">
+
+                <a href="index.html"
+                   class="text-zinc-300 hover:text-orange-500 transition">
+
+                    Beranda
+
+                </a>
+
+
+                <a href="menu.html"
+                   class="text-orange-500">
+
+                    Menu
+
+                </a>
+
+
+                <a href="informasi.html"
+                   class="text-zinc-300 hover:text-orange-500 transition">
+
+                    Informasi
+
+                </a>
+
+
+                <a href="kontak.html"
+                   class="text-zinc-300 hover:text-orange-500 transition">
+
+                    Kontak
+
+                </a>
+
+                <a href="admin.php"
+                   class="text-orange-500 hover:text-orange-400 transition">
+                    Admin
+                </a>
+
+            </div>
+
+
+            <!-- MOBILE BUTTON -->
+
+            <button id="menuButton"
+                    class="md:hidden text-orange-500 text-3xl">
+
+                ☰
+
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE MENU -->
+
+        <div id="mobileMenu"
+             class="hidden md:hidden max-w-6xl mx-auto px-6 pb-5">
+
+            <a href="index.html"
+               class="block py-3 text-zinc-300 border-b border-zinc-800">
+
+                Beranda
+
+            </a>
+
+
+            <a href="menu.html"
+               class="block py-3 text-orange-500 border-b border-zinc-800">
+
+                Menu
+
+            </a>
+
+
+            <a href="informasi.html"
+               class="block py-3 text-zinc-300 border-b border-zinc-800">
+
+                Informasi
+
+            </a>
+
+
+            <a href="kontak.html"
+               class="block py-3 text-zinc-300">
+
+                Kontak
+
+            </a>
+
+            <a href="admin.php"
+               class="block py-3 text-orange-500 hover:text-orange-400">
+                Admin
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- HEADER MENU -->
+
+    <section class="bg-gradient-to-br from-orange-600 via-orange-500 to-black">
+
+        <div class="max-w-6xl mx-auto px-6 py-24 text-center">
+
+            <p class="text-orange-100 font-bold uppercase tracking-[5px]">
+
+                Warung Sari Laut
+
+            </p>
+
+
+            <h1 class="mt-3 text-5xl md:text-6xl font-black uppercase">
+
+                Mas Gondrong
+
+            </h1>
+
+
+            <p class="mt-2 text-2xl md:text-3xl text-orange-100 font-bold">
+
+                Lamongan
+
+            </p>
+
+
+            <a href="#menuList"
+               class="inline-block mt-8 px-8 py-3
+                      bg-orange-500 text-black
+                      rounded-full font-black uppercase
+                      hover:bg-orange-400
+                      hover:-translate-y-1
+                      transition">
+
+                Daftar Menu
+
+            </a>
+
+
+            <p class="mt-5 text-orange-100">
+
+                Pilihan makanan dan minuman yang tersedia di warung.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- MENU -->
+
+    <main id="menuList" class="max-w-6xl mx-auto px-6 py-20">
+
+
+        <!-- MAKANAN -->
+
+        <div class="text-center mb-12">
+
+            <p class="text-orange-500 font-bold uppercase tracking-[4px]">
+
+                Daftar Menu
+
+            </p>
+
+
+            <h2 class="mt-2 text-4xl md:text-5xl font-black">
+
+                🍽️ Makanan
+
+            </h2>
+
+        </div>
+
+
+
+        <!-- GRID MAKANAN -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+
+            <!-- AYAM GORENG LALAPAN -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/ayam-goreng-lalapan.jpg"
+                     alt="Ayam Goreng Lalapan + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ayam Goreng Lalapan + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 28.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ayam Goreng Lalapan + Nasi"
+                        data-price="Rp 28.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AYAM PENYET -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/Ayam-penyet.jpeg"
+                     alt="Ayam Penyet + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ayam Penyet + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 28.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ayam Penyet + Nasi"
+                        data-price="Rp 28.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AYAM BAKAR -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/ayam-bakar.jpg"
+                     alt="Ayam Bakar + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ayam Bakar + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 33.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ayam Bakar + Nasi"
+                        data-price="Rp 33.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SOTO AYAM -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/soto-ayam.jpg"
+                     alt="Soto Ayam + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Soto Ayam + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 25.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Soto Ayam + Nasi"
+                        data-price="Rp 25.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HATI AMPELA -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/Hati-ampela-nasi.jpeg"
+                     alt="Hati Ampela + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Hati Ampela + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 23.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Hati Ampela + Nasi"
+                        data-price="Rp 23.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RAWON -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/rawon.jpg"
+                     alt="Rawon + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Rawon + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 35.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Rawon + Nasi"
+                        data-price="Rp 35.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IKAN LELE -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/ikan-lele.jpg"
+                     alt="Ikan Lele + Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ikan Lele + Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 40.000 – 50.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ikan Lele + Nasi"
+                        data-price="Rp 40.000 – 50.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IKAN LAUT -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/Ikan-laut.jpg"
+                     alt="Ikan Laut"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ikan Laut
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 40.000 – 100.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ikan Laut"
+                        data-price="Rp 40.000 – 100.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AYAM GORENG TANPA NASI -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/ayam-goreng-tanpa-nasi.jpg"
+                     alt="Ayam Goreng Tanpa Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ayam Goreng Tanpa Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 23.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ayam Goreng Tanpa Nasi"
+                        data-price="Rp 23.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AYAM BAKAR TANPA NASI -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/ayam-bakar-tanpa-nasi.jpg"
+                     alt="Ayam Bakar Tanpa Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Ayam Bakar Tanpa Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 28.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Ayam Bakar Tanpa Nasi"
+                        data-price="Rp 28.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SOTO AYAM TANPA NASI -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/soto-ayam-tanpa-nasi.jpg"
+                     alt="Soto Ayam Tanpa Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Soto Ayam Tanpa Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 20.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Soto Ayam Tanpa Nasi"
+                        data-price="Rp 20.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HATI AMPELA TANPA NASI -->
+
+            <div class="menu-card overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-950
+                        border border-zinc-800 rounded-2xl
+                        hover:border-orange-500 hover:-translate-y-2 transition">
+
+                <img src="images/Hati-ampela-tanpa-nasi.jpeg"
+                     alt="Hati Ampela Tanpa Nasi"
+                     class="w-full h-52 object-cover hover:scale-105 transition duration-500">
+
+
+                <div class="p-6">
+
+                    <h3 class="text-lg font-black">
+
+                        Hati Ampela Tanpa Nasi
+
+                    </h3>
+
+
+                    <p class="mt-4 text-xl font-black text-orange-500">
+
+                        Rp 18.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-5 bg-orange-500 text-black py-3 rounded-xl font-black hover:bg-orange-400 transition"
+                        data-name="Hati Ampela Tanpa Nasi"
+                        data-price="Rp 18.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- TAMBAHAN -->
+
+        <section class="mt-24">
+
+            <div class="text-center mb-12">
+
+                <p class="text-orange-500 font-bold uppercase tracking-[4px]">
+
+                    Pelengkap
+
+                </p>
+
+
+                <h2 class="mt-2 text-4xl font-black">
+
+                    Tambahan
+
+                </h2>
+
+            </div>
+
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Hati Ampela</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 10.000 – 20.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Hati Ampela"
+                        data-price="Rp 10.000 – 20.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Tahu Tempe</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 10.000 – 15.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Tahu Tempe"
+                        data-price="Rp 10.000 – 15.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Terong Goreng</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 5.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Terong Goreng"
+                        data-price="Rp 5.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Kol Goreng</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 5.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Kol Goreng"
+                        data-price="Rp 5.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Nasi</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 6.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Nasi"
+                        data-price="Rp 6.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Kerupuk</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 6.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Kerupuk"
+                        data-price="Rp 6.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Lombok Bungkus</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 3.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Lombok Bungkus"
+                        data-price="Rp 3.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+
+
+                <div class="p-6 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500 transition">
+
+                    <h3 class="font-black">Sup</h3>
+
+                    <p class="mt-2 text-orange-500 font-bold">
+
+                        Rp 5.000
+
+                    </p>
+
+
+                    <button
+                        type="button"
+                        class="order-button w-full mt-4 bg-orange-500 text-black py-2 rounded-lg font-black hover:bg-orange-400 transition"
+                        data-name="Sup"
+                        data-price="Rp 5.000">
+
+                        🛒 Pesan
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MINUMAN -->
+
+        <section class="mt-24">
+
+            <div class="text-center mb-12">
+
+                <p class="text-orange-500 font-bold uppercase tracking-[4px]">
+
+                    Daftar Minuman
+
+                </p>
+
+
+                <h2 class="mt-2 text-4xl font-black">
+
+                    🥤 Minuman
+
+                </h2>
+
+            </div>
+
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
+
+
+                <!-- NUTRISARI -->
+
+                <div class="p-7 bg-gradient-to-br from-zinc-900 to-zinc-950
+                            border border-orange-500 rounded-2xl">
+
+                    <h3 class="mb-5 text-2xl font-black text-orange-500">
+
+                        Nutrisari
+
+                    </h3>
+
+
+                    <div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Jeruk Peras</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Jeruk Maroko</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Jeruk Nipis</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Jeruk Manis</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Jeruk</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Sweet Orange</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Milky Orange</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Milky Peach</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Lemon Tea</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Apple Tea</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Orange Tea</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Black Currant Tea</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Lychee Tea</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Mango</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Melon</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Madu Lemon</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Strawberry</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Markisa</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Nanas</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3">
+
+                            <span>Es Anggur</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MINUMAN LAINNYA -->
+
+                <div class="p-7 bg-gradient-to-br from-zinc-900 to-zinc-950
+                            border border-orange-500 rounded-2xl h-fit">
+
+                    <h3 class="mb-5 text-2xl font-black text-orange-500">
+
+                        Minuman Lainnya
+
+                    </h3>
+
+
+                    <div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Es Teh / Teh Hangat</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Air Mineral</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Teh Pucuk / Teh Kotak</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Susu Ultra Milk</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Teh Botol Kaca</span>
+
+                            <strong class="text-orange-500">Rp 5.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Teh Botol Plastik</span>
+
+                            <strong class="text-orange-500">Rp 8.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Fruitea</span>
+
+                            <strong class="text-orange-500">Rp 8.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5 py-3 border-b border-zinc-800">
+
+                            <span>Kopi Hitam</span>
+
+                            <strong class="text-orange-500">Rp 7.000</strong>
+
+                        </div>
+
+
+                        <div class="flex justify-between gap-5">
+
+                            <span>Kopi Susu</span>
+
+                            <strong class="text-orange-500">Rp 10.000</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- INFORMASI OUTLET -->
+
+    <section class="py-14 px-6 text-center
+                    bg-gradient-to-r from-orange-600 to-orange-500
+                    text-black">
+
+        <div>
+
+            <h2 class="text-3xl font-black">
+
+                Warung Sari Laut Mas Gondrong
+
+            </h2>
+
+
+            <p class="mt-2 font-semibold">
+
+                Jln. Ahmad Yani, Caile
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- MODAL PESAN -->
+
+    <div id="orderModal"
+         class="hidden fixed inset-0 z-[100]
+                bg-black/80
+                flex items-center justify-center
+                px-4">
+
+        <div class="w-full max-w-lg
+                    bg-zinc-950
+                    border border-orange-500
+                    rounded-2xl
+                    p-6
+                    shadow-2xl">
+
+
+            <!-- HEADER -->
+
+            <div class="flex justify-between items-center">
+
+                <h2 class="text-2xl font-black text-orange-500">
+
+                    🛒 Pesanan Saya
+
+                </h2>
+
+
+                <button
+                    type="button"
+                    id="closeOrder"
+                    class="text-gray-400 hover:text-white text-2xl">
+
+                    ✕
+
+                </button>
+
+            </div>
+
+
+
+            <!-- DAFTAR PESANAN -->
+
+            <div id="orderList"
+                 class="mt-5 max-h-60 overflow-y-auto">
+
+            </div>
+
+
+
+            <!-- FORM PESANAN -->
+
+            <form id="orderForm"
+                  class="mt-6">
+
+
+                <!-- TAMBAH PESANAN -->
+
+                <button
+                    type="button"
+                    id="addMoreOrder"
+                    class="w-full mb-6
+                           border border-orange-500
+                           text-orange-500
+                           py-3
+                           rounded-xl
+                           font-black
+                           hover:bg-orange-500
+                           hover:text-black
+                           transition">
+
+                    ➕ Tambah Pesanan
+
+                </button>
+
+
+
+                <!-- PESANAN YANG DIPILIH -->
+
+                <input
+                    type="hidden"
+                    name="pesanan"
+                    id="orderData">
+
+
+
+                <!-- NAMA -->
+
+                <div>
+
+                    <label
+                        for="customerName"
+                        class="font-bold">
+
+                        Nama
+
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        name="nama"
+                        placeholder="Masukkan nama"
+                        required
+                        class="w-full mt-2
+                               px-4 py-3
+                               bg-black
+                               border border-zinc-700
+                               rounded-xl
+                               text-white
+                               focus:outline-none
+                               focus:border-orange-500">
+
+                </div>
+
+
+
+                <!-- CATATAN -->
+
+                <div class="mt-4">
+
+                    <label
+                        for="customerNote"
+                        class="font-bold">
+
+                        Catatan
+
+                    </label>
+
+
+                    <textarea
+                        id="customerNote"
+                        name="catatan"
+                        rows="3"
+                        placeholder="Contoh: sambal dipisah..."
+                        class="w-full mt-2
+                               px-4 py-3
+                               bg-black
+                               border border-zinc-700
+                               rounded-xl
+                               text-white
+                               focus:outline-none
+                               focus:border-orange-500"></textarea>
+
+                </div>
+
+
+
+                <!-- WHATSAPP -->
+
+                <button
+                    type="submit"
+                    id="sendWhatsApp"
+                    class="w-full mt-3
+                           bg-orange-500
+                           text-black
+                           py-3
+                           rounded-xl
+                           font-black
+                           hover:bg-orange-400
+                           transition">
+
+                    📱 Pesan via WhatsApp
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="py-8 px-6 text-center bg-black
+                   border-t border-orange-900 text-zinc-500">
+
+        <p class="text-zinc-400 font-semibold">
+
+            © 2026 Warung Sari Laut Mas Gondrong Lamongan
+
+        </p>
+
+
+        <p class="mt-2 text-sm">
+
+            Website Dokumentasi Warung
+
+        </p>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+
+    <script>
+
+        /* ========================================
+           TOMBOL TAMBAH PESANAN
+        ======================================== */
+
+        $(document).on(
+            "click",
+            "#addMoreOrder",
+            function () {
+
+                $("#orderModal").addClass("hidden");
+
+
+                setTimeout(function () {
+
+                    const menuList =
+                        document.getElementById("menuList");
+
+
+                    if (menuList) {
+
+                        menuList.scrollIntoView({
+
+                            behavior: "smooth",
+
+                            block: "start"
+
+                        });
+
+                    }
+
+                }, 100);
+
+            }
+        );
+
+
+
+        /* ========================================
+           UPDATE DAN HAPUS PESANAN
+        ======================================== */
+
+        function tambahTombolUpdate() {
+
+            $("#orderList > div").each(function (index) {
+
+                let item = $(this);
+
+
+                /*
+                Jika tombol Update sudah ada,
+                jangan dibuat lagi.
+                */
+
+                if (
+                    item.find(
+                        ".update-order-button"
+                    ).length
+                ) {
+
+                    return;
+
+                }
+
+
+                /*
+                Buat tombol Update
+                */
+
+                let tombolUpdate =
+                    $("<button>", {
+
+                        type: "button",
+
+                        class:
+                            "update-order-button mr-3 " +
+                            "text-blue-400 font-bold " +
+                            "hover:text-blue-300",
+
+                        text: "✎ Update"
+
+                    });
+
+
+                /*
+                Fungsi tombol Update
+                */
+
+                tombolUpdate.on(
+                    "click",
+                    function () {
+
+                        let nama =
+                            item.find("p")
+                                .first()
+                                .text()
+                                .trim();
+
+
+                        let detail =
+                            item.find("p")
+                                .eq(1)
+                                .text()
+                                .trim();
+
+
+                        /*
+                        Ambil jumlah lama
+                        */
+
+                        let jumlahLama =
+                            parseInt(
+                                detail.match(/\d+/)?.[0] || "1"
+                            );
+
+
+                        /*
+                        Tanya jumlah baru
+                        */
+
+                        let jumlahBaru =
+                            prompt(
+                                "Ubah jumlah " + nama + ":",
+                                jumlahLama
+                            );
+
+
+                        /*
+                        Batalkan jika input tidak valid
+                        */
+
+                        if (
+
+                            jumlahBaru === null ||
+
+                            jumlahBaru === "" ||
+
+                            isNaN(jumlahBaru) ||
+
+                            parseInt(jumlahBaru) <= 0
+
+                        ) {
+
+                            return;
+
+                        }
+
+
+                        jumlahBaru =
+                            parseInt(jumlahBaru);
+
+
+                        /*
+                        --------------------------------
+                        HAPUS JUMLAH LAMA
+                        --------------------------------
+                        */
+
+                        if (
+                            typeof window.hapusPesanan ===
+                            "function"
+                        ) {
+
+                            window.hapusPesanan(index);
+
+
+                            /*
+                            --------------------------------
+                            CARI MENU YANG SAMA
+                            --------------------------------
+                            */
+
+                            let tombolMenu =
+                                $(".order-button")
+                                    .filter(
+                                        function () {
+
+                                            return (
+                                                $(this)
+                                                    .data("name") ===
+                                                nama
+                                            );
+
+                                        }
+                                    )
+                                    .first();
+
+
+                            /*
+                            --------------------------------
+                            TAMBAHKAN KEMBALI
+                            --------------------------------
+                            */
+
+                            if (
+                                tombolMenu.length
+                            ) {
+
+                                let promptAsli =
+                                    window.prompt;
+
+
+                                /*
+                                Sementara ubah prompt
+                                agar jumlah baru langsung
+                                digunakan.
+                                */
+
+                                window.prompt =
+                                    function () {
+
+                                        return String(
+                                            jumlahBaru
+                                        );
+
+                                    };
+
+
+                                tombolMenu.trigger(
+                                    "click"
+                                );
+
+
+                                /*
+                                Kembalikan prompt asli
+                                */
+
+                                window.prompt =
+                                    promptAsli;
+
+                            }
+
+                        }
+
+                    }
+                );
+
+
+                /*
+                Masukkan tombol Update
+                sebelum tombol Hapus
+                */
+
+                item.find("button")
+                    .last()
+                    .before(
+                        tombolUpdate
+                    );
+
+            });
+
+        }
+
+
+
+        /* ========================================
+           PANTAU PERUBAHAN KERANJANG
+        ======================================== */
+
+        const orderListObserver =
+            new MutationObserver(
+                function () {
+
+                    tambahTombolUpdate();
+
+                }
+            );
+
+
+        const orderListElement =
+            document.getElementById(
+                "orderList"
+            );
+
+
+        if (orderListElement) {
+
+            orderListObserver.observe(
+
+                orderListElement,
+
+                {
+
+                    childList: true,
+
+                    subtree: true
+
+                }
+
+            );
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
