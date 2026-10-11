@@ -35,6 +35,3 @@ Website Warung Sari Laut Mas Gondrong merupakan aplikasi web untuk menampilkan i
 
 ## Database
 File `warung-warung.sql` disertakan dalam repository dan digunakan untuk mengimpor struktur serta data database aplikasi melalui phpMyAdmin.
-
-## Catatan
-Aplikasi menggunakan PHP dan MySQL, sehingga perlu dijalankan melalui server lokal seperti XAMPP. GitHub Pages saja tidak dapat menjalankan fitur PHP dan MySQL.
