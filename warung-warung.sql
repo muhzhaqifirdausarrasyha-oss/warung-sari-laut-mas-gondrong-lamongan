@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 10 Okt 2026 pada 16.18
+-- Waktu pembuatan: 10 Okt 2026 pada 17.40
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -64,7 +64,8 @@ INSERT INTO `orders` (`id`, `tanggal`, `nama`, `catatan`, `status`) VALUES
 (2, '2026-10-06 22:18:43', 'Ayu Mayasari', 'tidak mau ada timun', 'baru'),
 (3, '2026-10-07 06:15:20', 'Adinda', 'Telurnya kasih 3 yah', 'baru'),
 (4, '2026-10-07 11:17:39', 'Eky', 'buat sambalnya sedikit pedas', 'baru'),
-(6, '2026-10-10 22:17:28', 'Saki', 'Gak mau pakai sayuran', 'baru');
+(6, '2026-10-10 22:17:28', 'Saki', 'Gak mau pakai sayuran', 'baru'),
+(7, '2026-10-10 23:28:22', 'Raditya', 'Gak pake sup', 'baru');
 
 -- --------------------------------------------------------
 
@@ -92,7 +93,8 @@ INSERT INTO `order_items` (`id`, `order_id`, `nama_menu`, `harga`, `jumlah`) VAL
 (5, 3, 'Es Jeruk', 'Rp 5.000', 1),
 (10, 4, 'Es Sweet Orange', '5000', 1),
 (11, 4, 'Ayam Goreng Lalapan + Nasi', '28000', 1),
-(12, 6, 'Soto Ayam Tanpa Nasi', 'Rp 20.000', 1);
+(12, 6, 'Soto Ayam Tanpa Nasi', 'Rp 20.000', 1),
+(13, 7, 'Ayam Penyet + Nasi', 'Rp 28.000', 1);
 
 --
 -- Indexes for dumped tables
@@ -131,13 +133,13 @@ ALTER TABLE `messages`
 -- AUTO_INCREMENT untuk tabel `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT untuk tabel `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
